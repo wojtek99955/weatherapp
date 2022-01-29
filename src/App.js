@@ -1,8 +1,8 @@
 import React, { useState, createContext } from "react";
 import styled from "styled-components";
 import { ThemeProvider } from "styled-components";
-import { theme } from "./assets/theme";
-import { GlobalStyle } from "./GlobalStyles";
+import { theme } from "./assets/style/theme";
+import { GlobalStyle } from "./assets/style/GlobalStyles";
 import WeatherInfo from "./components/WeatherInfo/WeatherInfo";
 import AppContainer from "./components/AppContainer";
 import Search from "./components/Search/Search";

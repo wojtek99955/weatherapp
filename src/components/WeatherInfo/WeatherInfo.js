@@ -5,6 +5,7 @@ import BottomSection from "../BottomSection/BottomSection";
 import styled from "styled-components";
 import ErrorMessage from "../Error/ErrorMessage";
 import { WeatherCtx } from "../../App";
+import MainImage from '../MainImage/MainImage';
 
 const Container = styled.div`
   position: relative;
@@ -19,6 +20,7 @@ function WeatherInfo({ fetchError }) {
       {ctx && !fetchError ? (
         <Container>
           <CityInfo />
+          <MainImage />
           <MainSection />
           <BottomSection />
         </Container>
