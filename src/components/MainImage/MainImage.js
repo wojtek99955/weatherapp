@@ -4,13 +4,13 @@ import { Img } from './MainImageStyles';
 
 function MainImage() {
 
-  const ctx = useContext(WeatherCtx)
+    const ctx = useContext(WeatherCtx)
 
-  return (
-    <>
-      <Img weather={ctx} />
-    </>
-  );
+    return (
+        <>
+            <Img weather={ctx} />
+        </>
+    );
 }
 
 export default MainImage;
