@@ -10,7 +10,7 @@ Link: https://weather-app-wojtek.netlify.app/
 
 ## About The App
 
-The App shows current weather at searched city using OpenWeatherApp api.
+The App shows current weather at searched city using OpenWeatherMap api.
 ## Technologies
 
 * react
