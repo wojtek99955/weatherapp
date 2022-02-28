@@ -14,6 +14,8 @@ The App shows current weather at searched city using OpenWeatherMap api.
 ## Technologies
 
 * react
+* react-icons
+* fetch
 * styled-components
 
 ## Screenshots
