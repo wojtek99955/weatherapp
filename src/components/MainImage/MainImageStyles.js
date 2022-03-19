@@ -21,11 +21,13 @@ export const Img = styled.div`
             case "Clear":
                 return `url(${sun})`;
             case "Fog":
-                return `url(${fog});`;
+                return `url(${fog})`;
             case "Mist":
-                return `url(${fog});`;
+                return `url(${fog})`;
+            case "Haze":
+                return `url(${fog})`;
             case "Snow":
-                return `url(${snow});`;
+                return `url(${snow})`;
             default:
                 return "orange";
         }
